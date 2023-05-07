@@ -5,6 +5,7 @@
   --portfolio-text-color: #434455;
   --color-studio: #2e2f42;
   --page-background: #ffffff;
+  --buttom-hover-color: #e7e9fc;
 }
 
 .list {
@@ -53,7 +54,7 @@ img {
 .menu {
   display: flex;
   align-items: center;
-  }
+}
 
 .menu-item:not(:last-child) {
   margin-right: 40px;
@@ -120,12 +121,16 @@ body {
   color: #4d5ae5;
   background: #f4f4fd;
   letter-spacing: 0.04em;
+  padding: 12px 24px;
+  border: 1px solid var(--buttom-hover-color);
+  border-radius: 4px;
 }
 
 .filter-item:hover,
 .filter-item:focus {
   background: #404bbf;
   color: #ffffff;
+  border: 1px solid transparent;
 }
 
 .contacts-style {
@@ -208,7 +213,7 @@ body {
   margin-bottom: 188px;
   min-width: 169px;
   height: 56px;
-  border: none
+  border: none;
 }
 
 .modal-open-btn:hover,
@@ -339,7 +344,36 @@ body {
   padding-top: 101.5px;
 }
 
-.futer-logo{
+.futer-logo {
   display: inline-block;
   margin-bottom: 16px;
+}
+
+.section-portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
+.button-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.projects-items {
+  width: calc((100%-48px) / 3);
+}
+
+.applications-item {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
