@@ -53,7 +53,7 @@ img {
 .menu {
   display: flex;
   align-items: center;
-}
+  }
 
 .menu-item:not(:last-child) {
   margin-right: 40px;
@@ -85,6 +85,8 @@ body {
 .container-hero {
   display: flex;
   align-items: center;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .contacts-flex {
@@ -98,7 +100,10 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
+
 .menu-link:hover,
 .menu-link:focus {
   color: #404bbf;
@@ -169,6 +174,9 @@ body {
   text-align: center;
   color: #ffffff;
   margin-top: 188px;
+  max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .visually-hidden {
   position: absolute;
@@ -184,7 +192,6 @@ body {
   overflow: hidden;
 }
 
-
 .modal-open-btn {
   font-family: var(--main-font-family);
   font-weight: 500;
@@ -199,10 +206,10 @@ body {
   margin: auto;
   margin-top: 48px;
   margin-bottom: 188px;
+  min-width: 169px;
+  height: 56px;
+  border: none
 }
-
-
-
 
 .modal-open-btn:hover,
 .modal-open-btn:focus {
@@ -216,6 +223,7 @@ body {
 
 .section-benefits {
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .titles-sections {
@@ -251,17 +259,17 @@ body {
 
 .list-benefits {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .list-what {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .list-team {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .doing-item {
@@ -298,6 +306,7 @@ body {
 .team-list {
   background-color: #ffffff;
   flex-basis: calc((100%-72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .titles-sections {
@@ -311,6 +320,8 @@ body {
 .team-text-content {
   padding-top: 32px;
   padding-bottom: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
   text-align: center;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -320,8 +331,15 @@ body {
 .page-footer {
   display: flex;
   align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .cont-logo {
   padding-top: 101.5px;
+}
+
+.futer-logo{
+  display: inline-block;
+  margin-bottom: 16px;
 }
